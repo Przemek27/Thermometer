@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/mentor/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/mentor/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/aldec/altera_reset_controller.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/altera_reset_synchronizer.v"
+   type="VERILOG_ENCRYPT"
+   library="rst_controller"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/ADC_modular_adc_0.vhd"
+   type="VHDL"
+   library="modular_adc_0" />
+ <file
+   path="simulation/submodules/ADC_altpll_0.vho"
+   type="VHDL"
+   library="altpll_0" />
+ <file path="simulation/ADC.vhd" type="VHDL" />
+ <topLevel name="ADC" />
+ <deviceFamily name="max10" />
+</simPackage>

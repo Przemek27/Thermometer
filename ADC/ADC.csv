@@ -1,0 +1,26 @@
+# system info ADC on 2016.05.24.23:25:57
+system_info:
+name,value
+DEVICE,10M08DAF256C8GES
+DEVICE_FAMILY,MAX 10
+GENERATION_ID,1464125130
+#
+#
+# Files generated for ADC on 2016.05.24.23:25:57
+files:
+filepath,kind,attributes,module,is_top
+simulation/ADC.vhd,VHDL,,ADC,true
+simulation/submodules/ADC_altpll_0.vho,VHDL,,ADC_altpll_0,false
+simulation/submodules/ADC_modular_adc_0.vhd,VHDL,,ADC_modular_adc_0,false
+simulation/submodules/mentor/altera_reset_controller.v,VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_reset_controller,false
+simulation/submodules/mentor/altera_reset_synchronizer.v,VERILOG_ENCRYPT,MENTOR_SPECIFIC,altera_reset_controller,false
+simulation/submodules/aldec/altera_reset_controller.v,VERILOG_ENCRYPT,ALDEC_SPECIFIC,altera_reset_controller,false
+simulation/submodules/aldec/altera_reset_synchronizer.v,VERILOG_ENCRYPT,ALDEC_SPECIFIC,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+ADC.altpll_0,ADC_altpll_0
+ADC.modular_adc_0,ADC_modular_adc_0
+ADC.modular_adc_0.control_internal,ADC_modular_adc_0_control_internal
+ADC.rst_controller,altera_reset_controller

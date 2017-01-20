@@ -1,0 +1,132 @@
+Restore Archived Project report for Termometr
+Tue Oct 25 13:18:45 2016
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Oct 25 13:18:45 2016 ;
+; Revision Name                   ; Termometr                             ;
+; Top-level Entity Name           ; Top                                   ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/Przemek/Documents/Studia/III Rok/Jezyki Opisu Sprzetu/Maximator/Termometr_Maximator/Termometr.qar' into the 'C:/Users/Przemek/Documents/Studia/III Rok/Jezyki Opisu Sprzetu/Maximator/Termometr_Maximator/Termometr_restored/' directory
+Info: Generated report 'Termometr.restore.rpt'
+Info (23030): Evaluation of Tcl script d:/programy/quartusprimelite/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 646 megabytes
+    Info: Processing ended: Tue Oct 25 13:18:45 2016
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------+
+; Files Restored                                                    ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; qar_info.json                                                     ;
+; ADC.qsys                                                          ;
+; ADC/ADC.bsf                                                       ;
+; ADC/ADC.cmp                                                       ;
+; ADC/ADC.csv                                                       ;
+; ADC/ADC.html                                                      ;
+; ADC/ADC.spd                                                       ;
+; ADC/ADC.xml                                                       ;
+; ADC/ADC_bb.v                                                      ;
+; ADC/ADC_generation.rpt                                            ;
+; ADC/ADC_inst.v                                                    ;
+; ADC/ADC_inst.vhd                                                  ;
+; ADC/simulation/ADC.sip                                            ;
+; ADC/simulation/ADC.vhd                                            ;
+; ADC/simulation/aldec/rivierapro_setup.tcl                         ;
+; ADC/simulation/cadence/cds.lib                                    ;
+; ADC/simulation/cadence/cds_libs/altpll_0.cds.lib                  ;
+; ADC/simulation/cadence/cds_libs/modular_adc_0.cds.lib             ;
+; ADC/simulation/cadence/hdl.var                                    ;
+; ADC/simulation/cadence/ncsim_setup.sh                             ;
+; ADC/simulation/mentor/msim_setup.tcl                              ;
+; ADC/simulation/submodules/ADC_altpll_0.vho                        ;
+; ADC/simulation/submodules/ADC_modular_adc_0.vhd                   ;
+; ADC/simulation/submodules/aldec/altera_reset_controller.v         ;
+; ADC/simulation/submodules/aldec/altera_reset_synchronizer.v       ;
+; ADC/simulation/submodules/mentor/altera_reset_controller.v        ;
+; ADC/simulation/submodules/mentor/altera_reset_synchronizer.v      ;
+; ADC/simulation/synopsys/vcsmx/synopsys_sim.setup                  ;
+; ADC/simulation/synopsys/vcsmx/vcsmx_setup.sh                      ;
+; ADC/synthesis/ADC.debuginfo                                       ;
+; ADC/synthesis/ADC.qip                                             ;
+; ADC/synthesis/ADC.vhd                                             ;
+; ADC/synthesis/submodules/ADC_altpll_0.v                           ;
+; ADC/synthesis/submodules/ADC_modular_adc_0.v                      ;
+; ADC/synthesis/submodules/altera_modular_adc_control.sdc           ;
+; ADC/synthesis/submodules/altera_modular_adc_control.v             ;
+; ADC/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v   ;
+; ADC/synthesis/submodules/altera_modular_adc_control_fsm.v         ;
+; ADC/synthesis/submodules/altera_reset_controller.sdc              ;
+; ADC/synthesis/submodules/altera_reset_controller.v                ;
+; ADC/synthesis/submodules/altera_reset_synchronizer.v              ;
+; ADC/synthesis/submodules/chsel_code_converter_sw_to_hw.v          ;
+; ADC/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v ;
+; ADC/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v       ;
+; LUT.mif                                                           ;
+; ROM.bsf                                                           ;
+; ROM.cmp                                                           ;
+; ROM.qip                                                           ;
+; ROM.vhd                                                           ;
+; Termometr.qpf                                                     ;
+; Termometr.qsf                                                     ;
+; Top.bdf                                                           ;
+; bcd2seg.vhd                                                       ;
+; counter.vhd                                                       ;
+; demux.vhd                                                         ;
+; mux.vhd                                                           ;
+; my_adc.vhd                                                        ;
+; assignment_defaults.qdf                                           ;
++-------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

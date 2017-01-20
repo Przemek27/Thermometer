@@ -1,0 +1,85 @@
+Info: Starting: Create simulation model
+Info: qsys-generate D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC.qsys --simulation=VHDL --output-directory=D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC\simulation --family="MAX 10" --part=10M08DAF256C8GES
+Progress: Loading Maximator/ADC.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 15.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding modular_adc_0 [altera_modular_adc 15.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ADC.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Info: ADC: Generating ADC "ADC" for SIM_VHDL
+Info: altpll_0: Generating VHDL simulation model
+Warning: Verilog HDL or VHDL warning at ADC_altpll_0.vhd(304): object "wire_w_address_range2w" assigned a value but never read File: C:/Users/Przemek/AppData/Local/Temp/alt6945_9005633066514803099.dir/0003_sopcqmap/ADC_altpll_0.vhd Line: 304
+Info: altpll_0: Generated simulation model ADC_altpll_0.vho
+Info: altpll_0: "ADC" instantiated altpll "altpll_0"
+Info: modular_adc_0: "ADC" instantiated altera_modular_adc "modular_adc_0"
+Info: rst_controller: "ADC" instantiated altera_reset_controller "rst_controller"
+Error: control_internal: altera_modular_adc_control does not support generation for VHDL Simulation. Generation is available for: Quartus Synthesis, Verilog Simulation.
+Info: ADC: Done "ADC" with 5 modules, 7 files
+Error: qsys-generate failed with exit code 1: 1 Error, 2 Warnings
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC\ADC.spd --output-directory=D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC\ADC.spd --output-directory=D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	2 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/Programy/QuartusPrimeLite/MojeProjekty/Maximator/ADC/simulation/.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC.qsys --block-symbol-file --output-directory=D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC --family="MAX 10" --part=10M08DAF256C8GES
+Progress: Loading Maximator/ADC.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 15.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding modular_adc_0 [altera_modular_adc 15.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ADC.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC.qsys --synthesis=VHDL --output-directory=D:\Programy\QuartusPrimeLite\MojeProjekty\Maximator\ADC\synthesis --family="MAX 10" --part=10M08DAF256C8GES
+Progress: Loading Maximator/ADC.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 15.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding modular_adc_0 [altera_modular_adc 15.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ADC.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Info: ADC: Generating ADC "ADC" for QUARTUS_SYNTH
+Info: altpll_0: "ADC" instantiated altpll "altpll_0"
+Info: modular_adc_0: "ADC" instantiated altera_modular_adc "modular_adc_0"
+Info: rst_controller: "ADC" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "modular_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: ADC: Done "ADC" with 5 modules, 13 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
